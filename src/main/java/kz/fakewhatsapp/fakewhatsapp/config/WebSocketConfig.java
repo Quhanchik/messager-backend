@@ -22,10 +22,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry
                                                registry) {
         registry.addEndpoint("/ws")
-                .setAllowedOrigins("http://localhost:3000/**").withSockJS();
+                .setAllowedOrigins("http://quhan.site/**").withSockJS();
 
         registry.addEndpoint("/ws")
-                .setAllowedOrigins("http://localhost:3000/**");
+                .setAllowedOrigins("http://quhan.site/**");
     }
     @Override
     public void configureWebSocketTransport(WebSocketTransportRegistration registry)
