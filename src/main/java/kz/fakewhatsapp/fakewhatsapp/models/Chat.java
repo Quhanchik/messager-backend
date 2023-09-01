@@ -17,7 +17,7 @@ public class Chat {
     @Column(name = "title")
     private String title;
 
-    @Column(name = "avatar")
+    @Column(name = "avatar", length = Integer.MAX_VALUE)
     private String avatar;
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "chat_user",
