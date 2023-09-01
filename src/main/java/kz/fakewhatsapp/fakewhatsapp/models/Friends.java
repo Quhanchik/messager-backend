@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import kz.fakewhatsapp.fakewhatsapp.dto.UserDTO;
 
 @Entity
+@Embeddable
 @Table(name = "friends")
 public class Friends {
     @Id

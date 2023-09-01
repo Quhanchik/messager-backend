@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
+@Embeddable
 @Table(name = "message")
 public class Message {
     @Id

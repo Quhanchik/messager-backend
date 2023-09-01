@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 @Entity
+@Embeddable
 @Table(name = "chat")
 public class Chat {
     @Id

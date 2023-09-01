@@ -3,6 +3,7 @@ package kz.fakewhatsapp.fakewhatsapp.models;
 import jakarta.persistence.*;
 
 @Entity
+@Embeddable
 @Table(name = "message_user")
 public class Views {
     @Id

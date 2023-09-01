@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
+@Embeddable
 @Table(name = "friend_request")
 public class FriendRequest {
     @Id
